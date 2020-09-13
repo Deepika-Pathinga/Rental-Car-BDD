@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Rest Assured Cucumber" >
+<test name ="Car Rental">
+
+<classes>
+<!-- <class name ="com.cucumber.rentalcar.TestBase"></class>
+<class name ="com.cucumber.rentalcar.StubMappings"></class> -->
+<class name ="com.rentalcar.runner.CarRentalRunnerTest"></class>
+</classes>
+</test>
+
+</suite>
